@@ -1,0 +1,5 @@
+1. Run a webserver.
+
+$ node webserer.js 9000
+
+2. Connect to the running server on a browser with 'localhost:9000'.
