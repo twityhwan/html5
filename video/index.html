@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>HTML5 video - subtitle test</title>
+</head>
 <body>
 
 <video width="400" controls>
   <source src="mov_bbb.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
+  <track kind="subtitles" label="English" src="subtitle.vtt" srclang="eng"></track>
   Your browser does not support HTML5 video.
 </video>
 </body>
