@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML5 video - subtitle test</title>
+  <title>HTML5 video - subtitle style test</title>
+  <style>
+    video::cue {
+      background-image: linear-gradient(to bottom, dimgray, lightgray);
+      color: papayawhip;
+    }
+    video::cue(b) {
+      color: peachpuff;
+    }
+  </style>
 </head>
 <body>
 
